@@ -80,13 +80,7 @@
     box-shadow: 0 0 2px #6a6868 ;
   }
   
-  .container {
-    width: 100%;
-    display: flex;
-    margin-top: 1rem;
-    justify-content: space-between;
-    align-items: flex-start;
-  }
+  
   
   .todos {
     border-radius: 5px;
@@ -150,9 +144,25 @@
   }
   
 
-  @media (max-width: 700px) {
+  @media(max-width: 768px) {
     .input {
       width: 95%;
+    }
+
+    .todos {
+      width: 100%;
+      margin-top: .7rem;
+    }
+  
+  }
+  @media(max-width: 640px) {
+    .input {
+      width: 95%;
+    }
+
+    .todos {
+      width: 100%;
+      margin-top: .7rem;
     }
   
   }

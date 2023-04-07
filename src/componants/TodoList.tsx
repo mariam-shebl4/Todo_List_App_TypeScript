@@ -11,7 +11,7 @@ interface Props {
 
 const TodoList: React.FC<Props> = ({ setTodos, todos ,setCompleted,completed}) => {
   return (
-    <div className="container lg:flex-row flex-col">
+    <div className=" flex justify-between items-start mt-3 md:flex-row flex-col w-[95%]">
 
       <Droppable droppableId="TodosList">
        
